@@ -1,0 +1,19 @@
+{
+  "name": "strengthgineers",
+  "version": "1.0.0",
+  "description": "official webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LordDarthos/strengthgineers.git"
+  },
+  "author": "daniel monroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LordDarthos/strengthgineers/issues"
+  },
+  "homepage": "https://github.com/LordDarthos/strengthgineers#readme"
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strengthgineers</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #e0e0e0;
+    }
+    header {
+      background: #0f0;
+      color: black;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      background: linear-gradient(to bottom right, #000, #111);
+      text-align: center;
+    }
+    .hero h1 {
+      color: #0f0;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .hero button {
+      background-color: #0f0;
+      color: #000;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    section h2 {
+      color: #0f0;
+    }
+    .programs, .why-us, .testimonials, .trainers, .blog {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .program, .why-item, .testimonial, .trainer, .blog-post {
+      background-color: #111;
+      padding: 1.5rem;
+      border: 1px solid #0f0;
+      max-width: 300px;
+      transition: transform 0.3s;
+    }
+    .blog-post:hover {
+      transform: scale(1.03);
+    }
+    .trainer img, .blog-post img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .blog-post a {
+      color: #0f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .cta {
+      background-color: #0f0;
+      color: #000;
+      padding: 2rem;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+    .cta button {
+      background-color: #000;
+      color: #0f0;
+      border: 2px solid #0f0;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 400px;
+      margin: auto;
+      text-align: left;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 1rem;
+      border: none;
+      border-radius: 4px;
+    }
+    .contact-form button {
+      background-color: #0f0;
+      color: #000;
+      padding: 1rem;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #111;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    @media (max-width: 768px) {
+      nav {
+        justify-content: center;
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Strengthgineers</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#programs">Programs</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Engineering Strength. Forging Power.</h1>
+    <p>We combine science, strategy, and sweat to build the strongest version of you.</p>
+    <button>Join the Movement</button>
+  </div>
+
+  <section>
+    <h2>What is Strengthgineers?</h2>
+    <p>We’re not just a gym or a training program. We are a team of engineers of strength—designing custom fitness systems built around one goal: making you strong.</p>
+  </section>
+
+  <section>
+    <h2>Our Programs</h2>
+    <div class="programs">
+      <div class="program">
+        <h3>Strength Foundations</h3>
+        <p>Start from zero, build unshakable fundamentals.</p>
+      </div>
+      <div class="program">
+        <h3>Power Progression</h3>
+        <p>Push your limits with progressive overload & science-backed routines.</p>
+      </div>
+      <div class="program">
+        <h3>Elite Engineering</h3>
+        <p>Customized strength plans for athletes & lifters.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    
+    <h2>Why Choose Strengthgineers?</h2>
+    <div class="why-us">
+      <div class="why-item">
+        <h3>✅ Science-Driven Plans</h3>
+        <p>Every workout is backed by proven training principles.</p>
+      </div>
+      <div class="why-item">
+        <h3>💪 Personalized Coaching</h3>
+        <p>You're not just a number. Your plan is built for YOU.</p>
+      </div>
+      <div class="why-item">
+        <h3>⏱️ Efficient Workouts</h3>
+        <p>No fluff. Just results-driven sessions that fit your life.</p>
+      </div>
+      <div class="why-item">
+        <h3>🔧 Engineered for All Levels</h3>
+        <p>Whether you're a beginner or pro, we’ve got you covered.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Meet Our Trainers</h2>
+    <div class="trainers">
+      <div class="trainer">
+        <img src="https://via.placeholder.com/300x200?text=Alex" alt="Coach Alex">
+        <h3>Coach Alex</h3>
+        <p>Certified Strength Coach with 10+ years of experience engineering elite performance.</p>
+      </div>
+      <div class="trainer">
+        <img src="https://via.placeholder.com/300x200?text=Jess" alt="Engineer Jess">
+        <h3>Engineer Jess</h3>
+        <p>Biomechanics specialist focused on injury prevention and movement optimization.</p>
+      </div>
+      <div class="trainer">
+        <img src="https://via.placeholder.com/300x200?text=Mike" alt="Trainer Mike">
+        <h3>Trainer Mike</h3>
+        <p>Ex-athlete turned performance coach. Powerlifting and hypertrophy enthusiast.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>“I’ve never felt stronger in my life. The personalized plan changed the game for me.”</p>
+        <p><strong>— Sarah J.</strong></p>
+      </div>
+      <div class="testimonial">
+        <p>“Real science, real gains. No BS here. These guys know what they’re doing.”</p>
+        <p><strong>— Marcus T.</strong></p>
+      </div>
+      <div class="testimonial">
+        <p>“From couch to lifting confidence. Couldn’t have done it without Strengthgineers.”</p>
+        <p><strong>— Ana R.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Latest from the Blog</h2>
+    <div class="blog">
+      <div class="blog-post">
+        <img src="https://via.placeholder.com/300x200?text=Myths" alt="5 Myths">
+        <h3>5 Myths About Strength Training</h3>
+        <p>We bust the biggest misconceptions that hold lifters back.</p>
+        <a href="#">Read More →</a>
+      </div>
+      <div class="blog-post">
+        <img src="https://via.placeholder.com/300x200?text=Recovery" alt="Recovery Science">
+        <h3>The Science of Recovery</h3>
+        <p>Learn how to rest like a pro and maximize your results.</p>
+        <a href="#">Read More →</a>
+      </div>
+      <div class="blog-post">
+        <img src="https://via.placeholder.com/300x200?text=12+Weeks" alt="12 Week Plan">
+        <h3>Engineering Your First 12 Weeks</h3>
+        <p>A roadmap for strength training beginners to crush plateaus early.</p>
+        <a href="#">Read More →</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="cta">
+    <p>“Strength isn’t given. It’s engineered.”</p>
+    <button>Book Your Free Assessment</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Strengthgineers. All rights reserved.</p>
+    <p>Home | About | Programs | Contact</p>
+  </footer>
+</body>
+</html>

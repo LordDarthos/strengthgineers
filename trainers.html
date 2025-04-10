@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strengthgineers</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #e0e0e0;
+    }
+    header {
+      background: #0f0;
+      color: black;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    section h2 {
+      color: #0f0;
+      margin-bottom: 2rem;
+    }
+    .trainer-detail {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    .trainer-card {
+      background-color: #111;
+      border: 1px solid #0f0;
+      padding: 1.5rem;
+      border-radius: 8px;
+      max-width: 350px;
+      text-align: left;
+    }
+    .trainer-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .trainer-card h3 {
+      margin: 0.5rem 0;
+      color: #0f0;
+    }
+    .trainer-card p {
+      margin: 0.25rem 0;
+      font-size: 0.95rem;
+    }
+    footer {
+      background-color: #111;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Strengthgineers</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#programs">Programs</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Meet Our Trainers</h2>
+    <div class="trainer-detail">
+      <div class="trainer-card">
+        <img src="https://via.placeholder.com/350x200" alt="Trainer John">
+        <h3>John Steel</h3>
+        <p><strong>Certifications:</strong> NASM-CPT, CSCS</p>
+        <p><strong>Specialty:</strong> Powerlifting & Strength Conditioning</p>
+        <p>With over 10 years in the field, John brings intense dedication and a personalized approach to strength development.</p>
+      </div>
+      <div class="trainer-card">
+        <img src="https://via.placeholder.com/350x200" alt="Trainer Sarah">
+        <h3>Sarah Forge</h3>
+        <p><strong>Certifications:</strong> ACE, USAW-L1</p>
+        <p><strong>Specialty:</strong> Olympic Lifting & Mobility</p>
+        <p>Sarah focuses on functional strength through advanced Olympic lifting techniques combined with mobility coaching.</p>
+      </div>
+      <div class="trainer-card">
+        <img src="https://via.placeholder.com/350x200" alt="Trainer Mike">
+        <h3>Mike Ironwell</h3>
+        <p><strong>Certifications:</strong> ISSA, CPT</p>
+        <p><strong>Specialty:</strong> Muscle Hypertrophy & Nutrition</p>
+        <p>Mike helps clients sculpt powerful physiques with science-backed hypertrophy methods and tailored nutrition advice.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Strengthgineers. All rights reserved.
+  </footer>
+</body>
+</html>

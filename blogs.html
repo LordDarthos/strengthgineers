@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strengthgineers Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #e0e0e0;
+    }
+    header {
+      background: #0f0;
+      color: black;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    section h2 {
+      color: #0f0;
+      margin-bottom: 2rem;
+    }
+    .blog-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .blog-card {
+      background-color: #111;
+      border: 1px solid #0f0;
+      border-radius: 8px;
+      padding: 1.5rem;
+      max-width: 350px;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+    .blog-card:hover {
+      transform: scale(1.03);
+    }
+    .blog-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .blog-card h3 {
+      margin: 0.5rem 0;
+      color: #0f0;
+    }
+    .blog-card p {
+      margin: 0.5rem 0;
+      font-size: 0.95rem;
+    }
+    .blog-card a {
+      color: #0f0;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #111;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Strengthgineers</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="trainers.html">Trainers</a>
+      <a href="blog.html">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Latest From the Strength Blog</h2>
+    <div class="blog-container">
+      <div class="blog-card">
+        <img src="https://via.placeholder.com/350x200" alt="Post 1">
+        <h3>Building Strength 101</h3>
+        <p>Get started with the basics of strength training and see fast results with our proven beginner guide.</p>
+        <a href="#">Read More →</a>
+      </div>
+      <div class="blog-card">
+        <img src="https://via.placeholder.com/350x200" alt="Post 2">
+        <h3>Top 5 Protein Myths</h3>
+        <p>We break down the most common misconceptions about protein intake and muscle growth.</p>
+        <a href="#">Read More →</a>
+      </div>
+      <div class="blog-card">
+        <img src="https://via.placeholder.com/350x200" alt="Post 3">
+        <h3>Advanced Strength Cycles</h3>
+        <p>Explore periodized training for serious gains. A guide for intermediate and advanced lifters.</p>
+        <a href="#">Read More →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Strengthgineers. All rights reserved.
+  </footer>
+</body>
+</html>
